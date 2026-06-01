@@ -23,4 +23,34 @@ This project is created for learning and practice of front-end development.
 
 👨‍💻 Author
 
-Nitish Ranjan
+Nitish RANJAN 
+
+📂 Project Structure
+Myntra_clone/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+├── assets/
+│   ├── images/
+│   └── icons/
+│
+├── pages/
+│   ├── men.html
+│   ├── women.html
+│   ├── cart.html
+│   └── wishlist.html
+│
+├── css/
+│   ├── navbar.css
+│   ├── product.css
+│   └── cart.css
+│
+├── js/
+│   ├── products.js
+│   ├── cart.js
+│   ├── wishlist.js
+│   └── auth.js
+│
+└── README.md
