@@ -21,7 +21,9 @@ The project replicates the basic UI and functionality of the Myntra e-commerce p
 
 This project is created for learning and practice of front-end development.
 
-📂 Project Structure 
+## 📁 Project Structure
+
+```text
 Myntra_clone/
 │
 ├── index.html
@@ -50,6 +52,7 @@ Myntra_clone/
 │   └── auth.js
 │
 └── README.md
+```
 
 👨‍💻 Author
 
