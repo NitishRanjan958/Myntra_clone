@@ -29,6 +29,9 @@
   <body>
     <!-- Header Here -->
     <header>
+      <div class="menu_toggle" id="menuToggle">
+        <span class="material-symbols-outlined">menu</span>
+      </div>
       <div class="logo_container">
         <a href="#"
           ><img
@@ -53,8 +56,12 @@
         />
       </div>
       <div class="action_bar">
+        <div class="action_container" id="darkModeToggle">
+          <span class="material-symbols-outlined action_icon">dark_mode</span>
+          <span class="action_name">Theme</span>
+        </div>
         <div class="action_container">
-          <span class="material-icons-outlined action_icon">person</span>
+          <span class="material-symbols-outlined action_icon">person</span>
           <span class="action_name">Profile</span>
         </div>
         <div class="action_container">
@@ -149,6 +156,39 @@
 
       <div class="copyright">© 2026 www.myntra.com. All rights reserved.</div>
     </footer>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile_drawer" id="mobileDrawer">
+      <div class="drawer_header">
+        <img class="myntra_home" src="images/myntra_logo.webp" alt="Myntra Logo" />
+        <span class="material-symbols-outlined close_drawer" id="closeDrawer">close</span>
+      </div>
+      <div class="drawer_nav">
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Kids</a>
+        <a href="#">Home & Living</a>
+        <a href="#">Beauty</a>
+        <a href="#">Studio <sup>New</sup></a>
+      </div>
+      <hr class="drawer_divider" />
+      <div class="drawer_actions">
+        <div class="drawer_action_item">
+          <span class="material-symbols-outlined">person</span>
+          <span>Profile</span>
+        </div>
+        <div class="drawer_action_item">
+          <span class="material-symbols-outlined">favorite</span>
+          <span>Wishlist</span>
+        </div>
+        <a class="drawer_action_item" href="bag.html">
+          <span class="material-symbols-outlined">shopping_bag</span>
+          <span>Bag</span>
+        </a>
+      </div>
+    </div>
+    <div class="drawer_overlay" id="drawerOverlay"></div>
+
     <script src="data/items.js"></script>
     <script src="app.js"></script>
   </body>
